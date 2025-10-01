@@ -10,10 +10,10 @@ while chances < 7:
     if Guess == Num:
         print(f"Congratulations, you found the lucky number in {chances} attempts")
         break
-    if Guess > Num:
+    elif Guess > Num:
         print("Too high")
         continue
-    if Guess < Num:
+    else:
         print("Too low")
         continue
 else:
